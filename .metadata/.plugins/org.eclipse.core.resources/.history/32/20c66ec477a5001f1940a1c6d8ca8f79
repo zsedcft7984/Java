@@ -1,0 +1,14 @@
+package sec02.exam07;
+
+public class FloatDoubleExample {
+
+	public static void main(String[] args) {
+		//실수값 저장
+		//float var1 =3.14; <- java는 실수를 사용할때 기본을 double을 써서 float로 쓰려면 f를 써주어야 한다
+		float var2 = 3.14f;
+		double va3 = 3.14;
+		
+		
+	}
+
+}

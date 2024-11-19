@@ -1,0 +1,10 @@
+package sec02.exam04;
+
+public class ArithmeticOperatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\imsi\SelfStudy\Java\.metadata\.plugins\org.eclipse.jdt.core
+130601786.index
+1865797976.index
+3922113046.index
+2007115701.index
+2663481984.index
