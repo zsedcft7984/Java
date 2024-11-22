@@ -14,22 +14,22 @@ public class count {
 			System.out.println("------------------------------");
 			System.out.println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료");
 			System.out.println("------------------------------");
-			System.out.println("선택> ");
+			System.out.print("선택> ");
 			
 			int selection = Integer.parseInt(scanner.nextLine());
 			
 			if(selection == 1) {
 				//작성위치
-				System.out.println("학생수> ");
+				System.out.print("학생수> ");
 				studentNum = Integer.parseInt(scanner.nextLine());
 				scores = new int[studentNum];
 			}else if(selection == 2) {
 				//작성위치
-				if(scores.length == 0) {
+				if(studentNum == 0) {
 					System.out.println("학생수가 입력되지 않았습니다.");
 				}else {
 					for(int i =0; i < scores.length;i++) {
-						System.out.println("socre["+i+"]> ");
+						System.out.print("socre["+i+"]> ");
 						int score = Integer.parseInt(scanner.nextLine());
 						scores[i] = score;
 					}		
@@ -37,27 +37,27 @@ public class count {
 			}else if(selection == 3) {
 				//작성위치
 				if(studentNum == 0) {
-					System.out.println("리스트에 점수가 없습니다.");
+					System.out.print("리스트에 점수가 없습니다.");
 				}else {
 					for(int i =0; i < scores.length;i++) {
-					System.out.println("socre["+i+"]>"+scores[i]);
+						System.out.println("socre["+i+"]>"+scores[i]);
 					}
 				}	
 			}else if(selection == 4) {
 				//작성위치
 				int sum =0;
-				int first =0;
+				int max =0;
 				if(studentNum == 0) {
-					System.out.println("리스트에 점수가 없습니다.");
+					System.out.print("리스트에 점수가 없습니다.");
 				}else {
 					for(int i =0; i < scores.length;i++) {
 						sum += scores[i];
-						if(scores[i]>first) {
-							first = scores[i];
+						if(scores[i]>max) {
+							max = scores[i];
 						}
 					}
 					double avg = (double) sum/studentNum;
-					System.out.println("최고점수는:" + first);
+					System.out.println("최고점수는:" + max);
 					System.out.println("평균점수는:" + avg);
 				}
 			}else {

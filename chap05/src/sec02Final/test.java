@@ -31,12 +31,23 @@ public class test {
 		
 		// 작성위치
 		int count = 0;
+		
 		for(int i =0; i <array2.length; i++) {
 			for(int j =0; j <array2[i].length; j++) {
 				sum +=array2[i][j];
 				count++;
 			}
-		}		
+		}	
+		
+		// 항상된 for 문 이면
+		/*
+		for(int[] i : array2) {
+			for(int j : i) {
+				sum +=j;
+				count++;
+			}
+		}
+		*/
 		avg = (double) sum/count;
 		
 		System.out.println("sum: "+sum);
