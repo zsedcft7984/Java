@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sec01.exam03.RemoteControl"/>
+    <fullyQualifiedTypeName name="javax.sound.sampled.AudioFileFormat"/>
+    <fullyQualifiedTypeName name="sec01.exam05.SmartTelecision"/>
+    <fullyQualifiedTypeName name="sec02.exam02.Vehicle"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="sec02.exam05.InterfaceA"/>
+    <fullyQualifiedTypeName name="javax.sql.RowSetInternal"/>
+    <fullyQualifiedTypeName name="sec02.exam05.InterfaceB"/>
+    <fullyQualifiedTypeName name="sec02.exam05.InterfaceC"/>
+    <fullyQualifiedTypeName name="sec02.exam05.ImplementationC"/>
+    <fullyQualifiedTypeName name="sec01.exam01.A.B"/>
+    <fullyQualifiedTypeName name="sec01.exam01.A.C"/>
+    <fullyQualifiedTypeName name="sec01.exam05.Outter"/>
+    <fullyQualifiedTypeName name="sec01.exam05.Outter.Nested"/>
+    <fullyQualifiedTypeName name="sec01.Final.Car.Tire"/>
+    <fullyQualifiedTypeName name="sec01.Final.Car.Engine"/>
+    <fullyQualifiedTypeName name="java.util.prefs.BackingStoreException"/>
+    <fullyQualifiedTypeName name="sec01.Final.CheckBox"/>
+    <fullyQualifiedTypeName name="sec01.Final.CheckBox.OnSelectListener"/>
+    <fullyQualifiedTypeName name="sec01.exam06.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="sec01.exam06.CallListener"/>
+    <fullyQualifiedTypeName name="sec01.exam06.MessageListener"/>
+    <fullyQualifiedTypeName name="sec02.exam01.Anonymous"/>
+    <fullyQualifiedTypeName name="sec02.exam02.RemoteControl"/>
+    <fullyQualifiedTypeName name="review.chap06.Fishbun"/>
+</qualifiedTypeNameHistroy>
