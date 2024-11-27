@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="javax.sound.sampled.AudioFileFormat"/>
     <fullyQualifiedTypeName name="sec01.exam05.SmartTelecision"/>
     <fullyQualifiedTypeName name="sec02.exam02.Vehicle"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="sec02.exam05.InterfaceA"/>
     <fullyQualifiedTypeName name="javax.sql.RowSetInternal"/>
     <fullyQualifiedTypeName name="sec02.exam05.InterfaceB"/>
@@ -25,4 +24,21 @@
     <fullyQualifiedTypeName name="sec02.exam01.Anonymous"/>
     <fullyQualifiedTypeName name="sec02.exam02.RemoteControl"/>
     <fullyQualifiedTypeName name="review.chap06.Fishbun"/>
+    <fullyQualifiedTypeName name="sec02.exam03.Button"/>
+    <fullyQualifiedTypeName name="sec02.exam03.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="sec02.exam04.Calculatable"/>
+    <fullyQualifiedTypeName name="sec02.exam04.Anonymous"/>
+    <fullyQualifiedTypeName name="sec02.Final.Vehicle"/>
+    <fullyQualifiedTypeName name="sec02.Final.CheckBox"/>
+    <fullyQualifiedTypeName name="sec02.Final.CheckBox.OnSelectListener"/>
+    <fullyQualifiedTypeName name="sec01.exam05.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="sec01.exam06.SmartPhone"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
