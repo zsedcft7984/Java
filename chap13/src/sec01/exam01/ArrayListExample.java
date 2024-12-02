@@ -1,12 +1,17 @@
 package sec01.exam01;
-
+/**
+ * Collection 의 List 컬랙션의 ArrayList
+ * <> 제레릭 이라고 하고 자유롭게 넣을수 있는 거
+ * 	
+ **/
 import java.util.*;
 
 public class ArrayListExample {
 
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<String>();
-		
+		List<String> list = new ArrayList<String>(); // 뒤에 <>의 
+		//커스텀 클래스(사실 자료형 말고는 거의다) <> 를 사용할경우
+		// add 시 add(new 커스텀클래스(""))로 써야됨
 		list.add("Java");
 		list.add("JDBC");
 		list.add("Servlet/JSP");
